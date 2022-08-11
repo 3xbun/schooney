@@ -1,0 +1,17 @@
+{
+  "name": "schooney",
+  "version": "1.0.0",
+  "description": "",
+  "main": "schooney.js",
+  "scripts": {
+    "login": "node login.js",
+    "start": "node schooney.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^14.1.1"
+  }
+}
