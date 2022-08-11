@@ -41,6 +41,8 @@ const cookiesFilePath = "./cookies.json";
   await page.type("#__BVID__11", "เงินเซอร์เวียม");
   await page.type(".editor-section", message);
 
+  await page.focus("input[type='search']");
+
   await page.waitForRequest("https://mdschooney.ddns.net/message");
   await browser.close();
 })();
